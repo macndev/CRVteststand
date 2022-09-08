@@ -12,8 +12,8 @@ make
 
 Run:  
 Modify config.txt  
-./parserCrv Run_number  
-Ex: ./parserCrv 001052_000  
+./parserCrv Run_number -f nFEBs 
+Ex: ./parserCrv 001052_000 -f 2 
 ./calibCrv Run_number  
 ./recoCrv Run_number  
 
